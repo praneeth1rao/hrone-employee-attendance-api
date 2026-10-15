@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pytest
+.pytest_cache/
+.pytest_cache/**
+
+# Environment / secrets
+.env
+.env.*
+
+# Local test output logs
+tOut.txt
+test_output.txt
+test_output2.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+============================= test session starts =============================
+collected 26 items
+
+hrone-attendance-api\tests\test_attendance_api.py EEEEEEEEEEEEEEEE

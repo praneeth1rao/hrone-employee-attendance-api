@@ -1,0 +1,20 @@
+# ============================================================================
+# HROne Employee Attendance & Analytics API
+# ----------------------------------------------------------------------------
+# Production runtime dependencies.
+#   fastapi         - async web framework
+#   pydantic        - v2 request/response validation & settings
+#   pymongo         - MongoDB driver (async-capable sync driver)
+#   uvicorn         - ASGI server (with standard extras)
+#
+# Test-only dependencies (install separately with: pip install -r tests/requirements.txt)
+#   pytest          - test runner
+#   pytest-asyncio  - pytest support for async test functions
+#   httpx           - async HTTP client for TestClient/ASGI integration tests
+#   mongomock       - in-process MongoDB mock for fast CI runs without a live server
+# ============================================================================
+
+fastapi>=0.115.0
+pydantic>=2.6.0
+pymongo>=4.8.0
+uvicorn[standard]>=0.29.0
